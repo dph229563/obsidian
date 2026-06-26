@@ -1,0 +1,34 @@
+{
+  "company": "比亚迪",
+  "code": "002594",
+  "data_date": "2026-06-24 14:54:30 CST",
+  "current_price": 83.42,
+  "shares_billion": 9.1172,
+  "ttm_bridge": {
+    "annual_net_profit_billion": 32.619,
+    "remove_quarter_net_profit_billion": 9.155,
+    "add_quarter_net_profit_billion": 4.0846
+  },
+  "scenarios": [
+    {
+      "name": "bear",
+      "net_profit_billion": 20
+    },
+    {
+      "name": "base",
+      "net_profit_billion": 28
+    },
+    {
+      "name": "bull",
+      "net_profit_billion": 36
+    }
+  ],
+  "pe_multiples": [20, 22, 24, 26, 28, 30],
+  "base_scenario": "base",
+  "base_pe_range": [24, 28],
+  "price_zone_thresholds": {
+    "attractive": 0.8,
+    "reasonable": 1.05,
+    "full": 1.2
+  }
+}

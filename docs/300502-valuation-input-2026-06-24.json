@@ -1,0 +1,34 @@
+{
+  "company": "新易盛",
+  "code": "300502",
+  "data_date": "2026-06-24 15:00:00 CST",
+  "current_price": 555.30,
+  "shares_billion": 1.3943,
+  "ttm_bridge": {
+    "annual_net_profit_billion": 9.5319,
+    "remove_quarter_net_profit_billion": 1.5725,
+    "add_quarter_net_profit_billion": 2.7802
+  },
+  "scenarios": [
+    {
+      "name": "bear",
+      "net_profit_billion": 14
+    },
+    {
+      "name": "base",
+      "net_profit_billion": 16.5
+    },
+    {
+      "name": "bull",
+      "net_profit_billion": 20
+    }
+  ],
+  "pe_multiples": [30, 35, 40, 45, 50],
+  "base_scenario": "base",
+  "base_pe_range": [36, 42],
+  "price_zone_thresholds": {
+    "attractive": 0.75,
+    "reasonable": 1.05,
+    "full": 1.2
+  }
+}
